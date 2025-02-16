@@ -1,0 +1,38 @@
+.input{
+    color :blueviolet;
+    display : flex;
+    flex-direction:row;
+    width: 200px;;
+    padding: 10px;
+    margin: 50px 50px;
+    border: 10px solid darkslateblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+body{
+    background-color:aqua;
+}
+#text{
+    color: darkslateblue;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#btn{
+    display: flex;
+    background-color: darkslateblue;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 5px solid darkslateblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
