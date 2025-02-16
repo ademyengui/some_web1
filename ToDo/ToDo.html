@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ToDo</title>
+    <link rel="stylesheet" type="text/css" href="ToDo.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1 id="title">ToDo List</h1>
+        <div class="input-container">
+            <div class="input-group">
+                <label for="name-input">Name</label>
+                <input type="text" class="input" id="name-input" placeholder="Enter task name">
+            </div>
+            <div class="input-group">
+                <label for="content-input">Content</label>
+                <input type="text" class="input" id="content-input" placeholder="Enter task details">
+            </div>
+            <button id="btn" onclick="add()">Add Task</button>
+        </div>
+        <div class="list-container">
+            <ul id="list"></ul>
+        </div>
+    </div>
+    <script src="ToDo.js"></script>
+</body>
+</html>
