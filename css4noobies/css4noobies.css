@@ -1,31 +1,38 @@
-.input{
-    color :blueviolet;
-    display : flex;
-    flex-direction:row;
-    width: 200px;;
+.input {
+    color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    width: 100%; /* Make inputs take full width of their container */
+    max-width: 200px; /* Limit maximum width */
     padding: 10px;
-    margin: 50px 50px;
+    margin: 10px; /* Reduce margin for smaller screens */
     border: 10px solid darkslateblue;
     border-radius: 5px;
     box-sizing: border-box;
 }
-.container{
+
+.container {
+    width: 100%;
     display: flex;
-    flex-direction:row;
+    flex-wrap: wrap; /* Allow wrapping of child elements */
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    padding: 20px; /* Add padding for better spacing */
 }
-body{
-    background-color:aqua;
+
+body {
+    background-color: aqua;
 }
-#text{
+
+#text {
     color: darkslateblue;
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
-#btn{
+
+#btn {
     display: flex;
     background-color: darkslateblue;
     color: white;
@@ -34,5 +41,5 @@ body{
     border: 5px solid darkslateblue;
     padding: 10px 20px;
     border-radius: 5px;
-    
+    margin-top: 10px; /* Add margin to separate button from inputs */
 }
